@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+img{
+    width: 300px;
+}
+
+
+
+.teksta-krasa{
+    height: 80px;
+    color: rgb(252, 246, 246);
+    background-color:rgb(21, 33, 56);
+}
+
+.vidus{
+    background-color:rgb(21, 33, 56) ;
+    height: 200px;
+}

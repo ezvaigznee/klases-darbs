@@ -1,20 +1,37 @@
-body {
+.body {
     background-color: rgb(255, 255, 255);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-img{
-    width: 300px;
+.img{
+    width: 200px;
+    height: 200px;
+    margin: 400px;
 }
 
+.countainers1{   
+    border: 10px;  
+    column-span: all;
+}
+.countainers2{
 
+}
+.countainers3{
+}
+.countainers4{
+
+}
 
 .teksta-krasa{
+    flex-wrap: nowrap;
+    
     height: 80px;
     color: rgb(252, 246, 246);
     background-color:rgb(21, 33, 56);
 }
 
 .vidus{
+   flex-wrap: unset;
+    color: aliceblue;
     background-color:rgb(21, 33, 56) ;
-    height: 200px;
+    height: 100px;
 }

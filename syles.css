@@ -6,27 +6,9 @@
     width: 200px;
     height: 200px;
     margin: 400px;
+    flex: center;
 }
 
-*{
-    margin:0;
-}
-.item{
-    background-color: rgb(238, 236, 236);
-    border: 1px solid;
-
-}
-.container{
-    display: grid;
-    grid-template-columns: 50px 110px 345px ;
-    gap: 10px;
-}
-.viens{
-    background-color: rgb(255, 255, 255);
-    grid-column: span 3;
-    grid-row: span 2;
-    border: solid 1px;
-}
 
 .teksta-krasa{
     flex-wrap: nowrap;

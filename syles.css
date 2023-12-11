@@ -8,30 +8,41 @@
     margin: 400px;
 }
 
-.countainers1{   
-    border: 10px;  
-    column-span: all;
+*{
+    margin:0;
 }
-.countainers2{
+.item{
+    background-color: rgb(238, 236, 236);
+    border: 1px solid;
 
 }
-.countainers3{
+.container{
+    display: grid;
+    grid-template-columns: 50px 110px 345px ;
+    gap: 10px;
 }
-.countainers4{
-
+.viens{
+    background-color: rgb(255, 255, 255);
+    grid-column: span 3;
+    grid-row: span 2;
+    border: solid 1px;
 }
 
 .teksta-krasa{
     flex-wrap: nowrap;
     
-    height: 80px;
+    height: 150px;
     color: rgb(252, 246, 246);
-    background-color:rgb(21, 33, 56);
+    background-color:rgb(238, 223, 173);
 }
 
 .vidus{
    flex-wrap: unset;
     color: aliceblue;
-    background-color:rgb(21, 33, 56) ;
+    background-color:rgb(228, 218, 129) ;
     height: 100px;
+}
+.carousel{
+    height: 500px;
+    width: 500px;
 }

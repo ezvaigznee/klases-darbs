@@ -1,1 +1,1 @@
-# klases-darbs
+# Pārbaudes darbs
